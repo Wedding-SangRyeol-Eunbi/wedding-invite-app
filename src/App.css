@@ -1,23 +1,30 @@
 .App {
   text-align: center;
+  font-family: 'Cafe24Ohsquareair';
 }
 
 .main-image {
-  height: 40vmin;
+  width: 100%;
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'Cafe24Oneprettynight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cafe24Ohsquareair';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/Cafe24Ohsquareair.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-link {
-  color: #61dafb;
+.react-datepicker__input-container::before {
+  content: '\e99c';
+  display: inline-block;
+  font-family: 'Cafe24Oneprettynight';
+  font-size: 1rem;
+  color: #333;
 }
