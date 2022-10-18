@@ -12,15 +12,15 @@ function WeddingDate() {
             <Calendar
                 value={selectDate}
                 calendarType="US"
-                minDate={new Date('2023-01-01')}
-                maxDate={new Date('2023-01-31')}
+                // minDate={new Date('2023-01-01')}
+                // maxDate={new Date('2023-01-31')}
                 nextLabel={null}
-                next2Label={null}
+                next2Label={'오후 2시'}
                 prevLabel={null}
-                prev2Label={null}
-                showNavigation={false}
+                prev2Label={'2023년 1월 15일 (일)'}
+                // showNavigation={false}
                 showNeighboringMonth={false}
-                locale={'en'}
+                locale={'ko'}
             />
         </div>
     );

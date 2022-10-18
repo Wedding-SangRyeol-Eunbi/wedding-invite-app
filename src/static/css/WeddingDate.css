@@ -34,3 +34,29 @@
 .react-calendar__month-view__weekdays__weekday--weekend{
   color: #d10000;
 }
+
+.react-calendar__navigation, .react-calendar__viewContainer {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.react-calendar__month-view__weekdays__weekday{
+
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.react-calendar__navigation__label, .react-calendar__navigation__arrow {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Cafe24Oneprettynight';
+  pointer-events: none;
+}
+
+.react-calendar__navigation__prev2-button {
+  margin-left: 10px !important;
+}
+
+.react-calendar__navigation__label {
+  font-size: 0;
+}
