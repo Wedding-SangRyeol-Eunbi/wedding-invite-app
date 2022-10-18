@@ -13,6 +13,7 @@
   border: 1px solid #ccc;
   border-radius: 10%;
   padding: 10px;
+  pointer-events: none;
 }
 
 .react-calendar__month-view__days__day {
@@ -22,7 +23,7 @@
 
 .react-calendar__tile--active {
   background: rgb(255, 148, 148);
-  color: white;
+  color: white !important;
   font-weight: bold;
   border-radius: 20%;
 }
@@ -41,27 +42,36 @@
 }
 
 .react-calendar__month-view__weekdays__weekday{
-
   margin-top: 0;
   padding-top: 0;
 }
 
 .react-calendar__navigation__label, .react-calendar__navigation__arrow {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Cafe24Oneprettynight';
-  pointer-events: none;
 }
 
 .react-calendar__navigation__prev2-button {
-  margin-left: 10px !important;
+  padding-right: 20px;
+  color: black;
 }
 
 .react-calendar__navigation__next2-button {
-  margin-right: 10px !important;
+  padding-left: 20px;
+  color: black;
 }
 
 .react-calendar__navigation__label {
-  width: 0;
   font-size: 0;
+  min-width: 0;
+  width: 0;
+}
+
+.react-calendar__month-view__days__day{
+  color: black;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #d10000;
 }
