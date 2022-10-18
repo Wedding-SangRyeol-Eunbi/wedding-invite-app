@@ -48,7 +48,7 @@
 
 .react-calendar__navigation__label, .react-calendar__navigation__arrow {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Cafe24Oneprettynight';
   pointer-events: none;
 }
@@ -57,6 +57,11 @@
   margin-left: 10px !important;
 }
 
+.react-calendar__navigation__next2-button {
+  margin-right: 10px !important;
+}
+
 .react-calendar__navigation__label {
+  width: 0;
   font-size: 0;
 }
