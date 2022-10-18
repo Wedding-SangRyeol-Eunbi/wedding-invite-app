@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Cafe24Oneprettynight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/Cafe24Oneprettynight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.react-calendar {
+  font-family: 'Cafe24Oneprettynight';
+  width: 90%;
+  display: inline-block;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+.react-calendar__month-view__days__day {
+  font-family: 'Cafe24Oneprettynight';
+  font-size: 16px;
+}
+
+.react-calendar__tile--active {
+  background: rgb(255, 148, 148);
+  color: white;
+  font-weight: bold;
+  border-radius: 20%;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none !important;
+}
+
+.react-calendar__month-view__weekdays__weekday--weekend{
+  color: #d10000;
+}

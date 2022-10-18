@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: 'Cafe24Oneprettynight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+div {
+  margin-top: 10px;
+}
+
+#kakaotalk-sharing-btn {
+    border: 0px;
+    background: rgb(252, 228, 69);
+    border-radius: 5px;
+    font-family: 'Cafe24Oneprettynight';
+    font-weight: 800;
+    color: rgb(32, 33, 33);
+    padding: 10px 20px;
+}
