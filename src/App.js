@@ -6,11 +6,17 @@ import WeddingDate from './components/WeddingDate';
 import './static/css/App.css';
 import TopNavigator from './components/TopNavigator';
 import KakaoMap from './components/KakaoMap';
+import FamilyProfile from './components/FamilyProfile';
 
 function App() {
+    const nameStyle = {
+        'font-weight': 'bold',
+        'font-size': '18px',
+    };
     return (
         <div className="App">
             <Confetti
+                height={2000}
                 numberOfPieces="50"
                 friction={0.96}
                 initialVelocityX={60}
@@ -19,9 +25,15 @@ function App() {
             />
             <TopNavigator />
             <img src={mainImg} className="main-image" id="main" alt="logo" />
-            <p>🎉 상렬 ♥️ 은비, 결혼합니다 🎉</p>
+            <p>
+                <b>윤재순</b>, <b>최옥자</b>의 아들 <span className="name">상렬</span>
+            </p>
+            <p>
+                <b>문기현</b>, <b>한은경</b>의 딸 <span className="name">은비</span>
+            </p>
             <WeddingDate />
             <KakaoMap />
+            <FamilyProfile />
             <KakaoShare />
         </div>
     );

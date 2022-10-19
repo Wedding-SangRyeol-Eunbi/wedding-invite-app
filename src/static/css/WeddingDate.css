@@ -25,7 +25,7 @@
   background: rgb(255, 148, 148);
   color: white !important;
   font-weight: bold;
-  border-radius: 20%;
+  border-radius: 30%;
 }
 
 .react-calendar__month-view__weekdays__weekday abbr {
@@ -62,7 +62,6 @@
 }
 
 .react-calendar__navigation__label, .react-calendar__navigation__arrow {
-  font-weight: bold;
   font-size: 16px;
   font-family: 'Cafe24Oneprettynight';
 }

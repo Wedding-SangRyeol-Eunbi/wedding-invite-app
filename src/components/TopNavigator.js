@@ -8,7 +8,7 @@ function TopNavigator() {
             {dash}
             <a href="#kakaoMapDiv">오시는길</a>
             {dash}
-            <a href="#kakaoMapDiv">연락처</a>
+            <a href="#familyProfileDiv">연락처</a>
         </div>
     );
 }

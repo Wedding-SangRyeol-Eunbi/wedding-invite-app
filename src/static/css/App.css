@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-family: 'Cafe24Ohsquareair';
+  margin-top: 40px;
 }
 
 .main-image {
@@ -28,4 +29,14 @@
   font-family: 'Cafe24Oneprettynight';
   font-size: 1rem;
   color: #333;
+}
+
+span.name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.subTitle {
+  padding-top: 40px;
+  color: green;
 }
