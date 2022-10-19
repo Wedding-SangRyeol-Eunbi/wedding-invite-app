@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/wedding-invite-app/static/css/main.54fbe430.css",
-    "main.js": "/wedding-invite-app/static/js/main.961e9e0d.js",
+    "main.css": "/wedding-invite-app/static/css/main.c9d73658.css",
+    "main.js": "/wedding-invite-app/static/js/main.273e36bd.js",
     "static/js/787.db5ba3e3.chunk.js": "/wedding-invite-app/static/js/787.db5ba3e3.chunk.js",
     "static/media/img02.jpg": "/wedding-invite-app/static/media/img02.d8698f5788766227d022.jpg",
     "static/media/coupleCharacter.png": "/wedding-invite-app/static/media/coupleCharacter.7ef11ea5fc16bbb47364.png",
     "index.html": "/wedding-invite-app/index.html",
-    "main.54fbe430.css.map": "/wedding-invite-app/static/css/main.54fbe430.css.map",
-    "main.961e9e0d.js.map": "/wedding-invite-app/static/js/main.961e9e0d.js.map",
+    "main.c9d73658.css.map": "/wedding-invite-app/static/css/main.c9d73658.css.map",
+    "main.273e36bd.js.map": "/wedding-invite-app/static/js/main.273e36bd.js.map",
     "787.db5ba3e3.chunk.js.map": "/wedding-invite-app/static/js/787.db5ba3e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54fbe430.css",
-    "static/js/main.961e9e0d.js"
+    "static/css/main.c9d73658.css",
+    "static/js/main.273e36bd.js"
   ]
 }
