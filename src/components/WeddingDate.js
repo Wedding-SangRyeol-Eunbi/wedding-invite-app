@@ -7,6 +7,7 @@ import '../static/css/WeddingDate.css';
 function WeddingDate() {
     return (
         <div id="weddingCalendar">
+            <p className="subTitle">예식일자</p>
             <Calendar
                 value={new Date('2023-01-15')}
                 calendarType="US"
