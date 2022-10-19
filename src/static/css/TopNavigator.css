@@ -1,7 +1,9 @@
 #topNavigatorDiv {
-    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
     opacity: 0.7;
-    padding: 10px 0;
+    padding: 10px 10px;
     margin-top: 0;
     position: fixed;
     top: 0;
@@ -16,6 +18,5 @@
 }
 
 .dash {
-    font-size: 20px;
-    color: rgb(100, 100, 100);
+    color: rgb(110, 110, 110);
 }
