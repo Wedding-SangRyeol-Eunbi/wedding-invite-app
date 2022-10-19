@@ -1,0 +1,13 @@
+#kakaoMapDiv {
+    padding: 0 20px;
+}
+
+#kakaoMap {
+    border-radius: 20px;
+}
+
+#localText {
+    border-radius: 20px;
+    text-align: center;
+    font-size: 10px;
+}

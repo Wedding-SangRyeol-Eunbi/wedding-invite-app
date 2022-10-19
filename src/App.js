@@ -5,6 +5,7 @@ import KakaoShare from './components/KakaoShare';
 import WeddingDate from './components/WeddingDate';
 import './static/css/App.css';
 import TopNavigator from './components/TopNavigator';
+import KakaoMap from './components/KakaoMap';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
             <img src={mainImg} className="main-image" alt="logo" />
             <p>🎉 상렬 ♥️ 은비, 결혼합니다 🎉</p>
             <WeddingDate />
+            <KakaoMap />
             <KakaoShare />
         </div>
     );
