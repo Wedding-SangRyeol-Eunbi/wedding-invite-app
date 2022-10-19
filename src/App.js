@@ -18,7 +18,7 @@ function App() {
                 opacity={0.4}
             />
             <TopNavigator />
-            <img src={mainImg} className="main-image" alt="logo" />
+            <img src={mainImg} className="main-image" id="main" alt="logo" />
             <p>🎉 상렬 ♥️ 은비, 결혼합니다 🎉</p>
             <WeddingDate />
             <KakaoMap />

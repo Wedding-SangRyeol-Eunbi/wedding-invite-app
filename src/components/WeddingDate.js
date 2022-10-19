@@ -8,7 +8,7 @@ function WeddingDate() {
     const [selectDate, setSelectDate] = useState(new Date('2023-01-15'));
 
     return (
-        <div>
+        <div id="weddingCalendar">
             <Calendar
                 value={selectDate}
                 calendarType="US"

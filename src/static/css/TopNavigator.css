@@ -1,3 +1,21 @@
 #topNavigatorDiv {
-    margin: 10px;
+    background-color: white;
+    opacity: 0.7;
+    padding: 10px 0;
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+#topNavigatorDiv a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.dash {
+    font-size: 20px;
+    color: rgb(100, 100, 100);
 }
