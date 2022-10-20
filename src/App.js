@@ -7,6 +7,8 @@ import './static/css/App.css';
 import TopNavigator from './components/TopNavigator';
 import KakaoMap from './components/KakaoMap';
 import FamilyProfile from './components/FamilyProfile';
+import WomanIcon from './static/img/womanIcon.png';
+import ManIcon from './static/img/manIcon.png';
 
 function App() {
     const nameStyle = {
@@ -26,9 +28,11 @@ function App() {
             <TopNavigator />
             <img src={mainImg} className="main-image" id="main" alt="logo" />
             <p>
+                <img src={ManIcon} className="prefixIcon" />
                 <b>윤재순</b>, <b>최옥자</b>의 아들 <span className="name">상렬</span>
             </p>
             <p>
+                <img src={WomanIcon} className="prefixIcon" />
                 <b>문기현</b>, <b>한은경</b>의 딸 <span className="name">은비</span>
             </p>
             <WeddingDate />

@@ -25,7 +25,7 @@
   background: rgb(255, 148, 148);
   color: white !important;
   font-weight: bold;
-  border-radius: 30%;
+  border-radius: 25%;
 }
 
 .react-calendar__month-view__weekdays__weekday abbr {

@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: 'Cafe24Ohsquareair';
+  font-family: 'S-CoreDream-3Light';
   margin-top: 40px;
 }
 
@@ -23,12 +23,23 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .react-datepicker__input-container::before {
   content: '\e99c';
   display: inline-block;
   font-family: 'Cafe24Oneprettynight';
   font-size: 1rem;
   color: #333;
+}
+
+.App > p {
+  font-family: 'S-CoreDream-3Light' !important; 
 }
 
 span.name {
@@ -39,4 +50,17 @@ span.name {
 .subTitle {
   padding-top: 40px;
   color: green;
+}
+
+.hallAddress{
+  font-family: 'S-CoreDream-3Light' !important;
+}
+
+.prefixIcon {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.prefixIcon2 {
+  width: 14px;
 }

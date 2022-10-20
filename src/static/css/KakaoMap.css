@@ -12,3 +12,24 @@
     text-align: center;
     font-size: 10px;
 }
+
+.warningMsg {
+    font-size: 12px !important;
+    color: red;
+}
+
+.subMsg {
+    font-size: 14px !important;
+}
+
+.copyText {
+    font-size: 12px;
+    background-color: blanchedalmond;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+.metroLine2 {
+    color: limegreen !important;
+    font-weight: bold !important;
+}
