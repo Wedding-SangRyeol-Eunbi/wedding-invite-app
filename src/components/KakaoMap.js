@@ -4,6 +4,7 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
 import ToastMessage from '../components/common/ToastMessage.js';
 import coupleIcon from '../static/img/coupleCharacter.png';
 import copyIcon from '../static/img/copyIcon.png';
+import common from '../static/common/common.json';
 import '../static/css/KakaoMap.css';
 function KakaoMap() {
     const [ToastStatus, setToastStatus] = useState(false);
@@ -11,8 +12,25 @@ function KakaoMap() {
         setToastStatus(true);
     };
 
-    const mapClickHandler = () => {
-        window.open('http://naver.me/x5gZbFJM');
+    const runTmap = () => {
+        window.location.href = 'tmap://search?name=아펠가모잠실';
+    };
+
+    const runNaverMap = () => {
+        window.location.href = 'nmap://search?query=아펠가모잠실&appname=wedding-invite-app';
+    };
+
+    const rumKakaoNavi = () => {
+        const kakao = window.Kakao;
+        if (!kakao.isInitialized()) {
+            kakao.init(common.KAKAO_JAVASCRIPT_KEY);
+        }
+        Kakao.Navi.start({
+            name: '아펠가모 잠실',
+            x: 127.0995839,
+            y: 37.51606,
+            coordType: 'wgs84',
+        });
     };
 
     useEffect(() => {
@@ -30,11 +48,10 @@ function KakaoMap() {
                 style={{width: '100%', height: '180px'}}
                 level={5}
                 draggable={false}
-                zoomable={true}
-                onClick={mapClickHandler}
+                zoomable={false}
             >
                 <MapMarker
-                    position={{lat: 37.515983, lng: 127.0995839}}
+                    position={{lat: 37.51606, lng: 127.0995839}}
                     image={{
                         src: coupleIcon,
                         size: {
@@ -46,7 +63,15 @@ function KakaoMap() {
                         },
                     }}
                 />
-                <div style={{textAlign: 'left', marginTop: '15px'}}>
+                <div className="navigationAppBtn">
+                    <button onClick={runTmap}>티맵 안내</button>
+                    <button id="start-navigation" onClick={rumKakaoNavi}>
+                        카카오내비 안내
+                    </button>
+                    <button onClick={runNaverMap}>네이버지도 안내</button>
+                </div>
+
+                <div style={{textAlign: 'left', marginTop: '20px'}}>
                     <span style={{fontSize: '15px', fontWeight: 'bold'}}>
                         아펠가모 잠실, 2층 단독웨딩홀
                     </span>
