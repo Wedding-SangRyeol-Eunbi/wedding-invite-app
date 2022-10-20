@@ -64,7 +64,7 @@ function KakaoMap() {
                         <span style={{fontSize: '14px', fontWeight: 'bold'}}>{'- '}도보안내</span>
                         <br />
                         <span style={{fontSize: '13px'}}>
-                            잠실역 7번출구 200m 직진, Tower730 빌딩에서ㅇ 우회전
+                            잠실역 7번 출구 200m 직진, Tower730 빌딩에서 우회전
                         </span>
                     </div>
                     <div>
@@ -84,7 +84,7 @@ function KakaoMap() {
                             <br />
                             * 지하주차장 출입구가 좁습니다.
                             <br />
-                            SUV등 큰 차량 진입시 유의해주세요.
+                            SUV 등 큰 차량 진입 시 유의해 주세요.
                         </span>
                     </div>
                     <div>
