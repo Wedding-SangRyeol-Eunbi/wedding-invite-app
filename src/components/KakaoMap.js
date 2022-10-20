@@ -2,8 +2,11 @@ import React, {useState, useEffect} from 'react';
 import {Map, MapMarker} from 'react-kakao-maps-sdk';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import ToastMessage from '../components/common/ToastMessage.js';
-import coupleIcon from '../static/img/coupleCharacter.png';
-import copyIcon from '../static/img/copyIcon.png';
+import coupleIcon from '../static/img/icon/coupleCharacter.png';
+import copyIcon from '../static/img/icon/copyIcon.png';
+import kakaonavi from '../static/img/icon/kakaonavi.png';
+import tmap from '../static/img/icon/tmap.png';
+import navermap from '../static/img/icon/navermap.png';
 import common from '../static/common/common.json';
 import '../static/css/KakaoMap.css';
 function KakaoMap() {
@@ -64,14 +67,18 @@ function KakaoMap() {
                     }}
                 />
                 <div className="navigationAppBtn">
-                    <button onClick={runTmap}>티맵 안내</button>
-                    <button id="start-navigation" onClick={rumKakaoNavi}>
-                        카카오내비 안내
+                    <button onClick={runTmap}>
+                        <img src={tmap} />
                     </button>
-                    <button onClick={runNaverMap}>네이버지도 안내</button>
+                    <button id="start-navigation" onClick={rumKakaoNavi}>
+                        <img src={kakaonavi} />
+                    </button>
+                    <button onClick={runNaverMap}>
+                        <img src={navermap} />
+                    </button>
                 </div>
 
-                <div style={{textAlign: 'left', marginTop: '20px'}}>
+                <div style={{textAlign: 'left', marginTop: '15px'}}>
                     <span style={{fontSize: '15px', fontWeight: 'bold'}}>
                         아펠가모 잠실, 2층 단독웨딩홀
                     </span>

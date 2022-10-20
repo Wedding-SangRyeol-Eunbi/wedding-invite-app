@@ -2,9 +2,9 @@ import React, {useState, useEffect} from 'react';
 import {Map, MapMarker} from 'react-kakao-maps-sdk';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import ToastMessage from '../components/common/ToastMessage.js';
-import coupleIcon from '../static/img/coupleCharacter.png';
-import hallIcon from '../static/img/hallIcon.png';
-import copyIcon from '../static/img/copyIcon.png';
+import coupleIcon from '../static/img/icon/coupleCharacter.png';
+import hallIcon from '../static/img/icon/hallIcon.png';
+import copyIcon from '../static/img/icon/copyIcon.png';
 import '../static/css/KakaoMap.css';
 function KakaoMap() {
     const [ToastStatus, setToastStatus] = useState(false);

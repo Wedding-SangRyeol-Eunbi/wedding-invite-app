@@ -40,24 +40,14 @@
 }
 
 .navigationAppBtn>button{
-    font-weight: bold;
     border: 0px;
     border-radius: 5px;
-    padding: 8px 4px;
-    color: white;
-    width: 25%;
-    margin: 0 5px;
+    width: 30px;
+    margin: 0 15px;
+    padding: 0;
 }
 
-.navigationAppBtn>button:nth-child(1) {
-    background: red;
-}
-
-.navigationAppBtn>button:nth-child(2) {
-    background: rgb(252, 228, 69);
-    color: rgb(32, 33, 33);
-}
-
-.navigationAppBtn>button:nth-child(3) {
-    background: #2DB400;
+.navigationAppBtn>button>img{
+    border-radius: 5px;
+    width: 100%;
 }

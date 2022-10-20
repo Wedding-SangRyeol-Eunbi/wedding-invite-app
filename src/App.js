@@ -7,8 +7,8 @@ import './static/css/App.css';
 import TopNavigator from './components/TopNavigator';
 import KakaoMap from './components/KakaoMap';
 import FamilyProfile from './components/FamilyProfile';
-import WomanIcon from './static/img/womanIcon.png';
-import ManIcon from './static/img/manIcon.png';
+import WomanIcon from './static/img/icon/womanIcon.png';
+import ManIcon from './static/img/icon/manIcon.png';
 
 function App() {
     const nameStyle = {
