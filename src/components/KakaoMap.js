@@ -11,6 +11,10 @@ function KakaoMap() {
         setToastStatus(true);
     };
 
+    const mapClickHandler = () => {
+        window.open('http://naver.me/x5gZbFJM');
+    };
+
     useEffect(() => {
         if (ToastStatus) {
             setTimeout(() => setToastStatus(false), 1000);
@@ -27,6 +31,7 @@ function KakaoMap() {
                 level={5}
                 draggable={false}
                 zoomable={true}
+                onClick={mapClickHandler}
             >
                 <MapMarker
                     position={{lat: 37.515983, lng: 127.0995839}}
@@ -47,7 +52,7 @@ function KakaoMap() {
                     </span>
                     <br />
                     <span style={{fontSize: '13px'}}>
-                        서울특별시 송파구 올림픽로35길 137
+                        서울특별시 송파구 올림픽로35길 137 (신천동),
                         <br />
                         한국광고문화회관 2층&nbsp;&nbsp;
                         <CopyToClipboard
@@ -61,22 +66,29 @@ function KakaoMap() {
                         </CopyToClipboard>
                     </span>
                     <div>
-                        <span style={{fontSize: '14px', fontWeight: 'bold'}}>{'- '}도보안내</span>
+                        <span style={{fontSize: '14px', fontWeight: 'bold'}}>{'‣ '}도보안내</span>
                         <br />
                         <span style={{fontSize: '13px'}}>
-                            잠실역 7번 출구 200m 직진, Tower730 빌딩에서 우회전
+                            잠실역 7번 출구 200m 직진, Tower730 빌딩에서 우회전 (도보 5분)
                         </span>
                     </div>
                     <div>
-                        <span style={{fontSize: '14px', fontWeight: 'bold'}}>{'- '}차량안내</span>
+                        <span style={{fontSize: '14px', fontWeight: 'bold'}}>{'‣ '}차량안내</span>
                         <br />
                         <span style={{fontSize: '13px'}}>
-                            잠실역에서 잠실대교 방면 200m 직진 후 우회전, 다시 170m 직진 후 우회전
+                            - 잠실역에서 잠실대교 방면 200m 직진 {'>'} 잠실나루역 방향 우회전{' > '}
+                            170m 후 우회전{' > '}한국광고문화회관
+                        </span>
+                        <br />
+                        <span style={{fontSize: '13px'}}>
+                            - 잠실대교에서 잠실역 방면{' > '}잠실대교남단 교차로{' > '}
+                            잠실나루역 방향 좌회전{' > '}170m 후 우회전{' > '}
+                            한국광고문화회관
                         </span>
                         <br />
                     </div>
                     <div>
-                        <span style={{fontSize: '14px', fontWeight: 'bold'}}>{'- '}주차안내</span>
+                        <span style={{fontSize: '14px', fontWeight: 'bold'}}>{'‣ '}주차안내</span>
                         <br />
                         <span style={{fontSize: '13px'}}>건물 내 지하주차장 2시간 무료</span>
                         <span className="warningMsg">
@@ -88,7 +100,7 @@ function KakaoMap() {
                         </span>
                     </div>
                     <div>
-                        <span style={{fontSize: '14px', fontWeight: 'bold'}}>{'- '}피로연안내</span>
+                        <span style={{fontSize: '14px', fontWeight: 'bold'}}>{'‣ '}피로연안내</span>
                         <br />
                         <span style={{fontSize: '13px'}}>
                             B1층 뷔페 (13:30 ~ 15:30) / * 예식시간 14:00
