@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: 'S-CoreDream-3Light';
+  font-family: "S-CoreDream-3Light";
   margin-top: 40px;
 }
 
@@ -10,40 +10,59 @@
 }
 
 @font-face {
-  font-family: 'Cafe24Oneprettynight';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+  font-family: "Cafe24Oneprettynight";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Cafe24Ohsquareair';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/Cafe24Ohsquareair.woff') format('woff');
+  font-family: "Cafe24Ohsquareair";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/Cafe24Ohsquareair.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'S-CoreDream-3Light';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-family: "S-CoreDream-3Light";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RIDIBatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 .react-datepicker__input-container::before {
-  content: '\e99c';
+  content: "\e99c";
   display: inline-block;
-  font-family: 'Cafe24Oneprettynight';
+  font-family: "Cafe24Oneprettynight";
   font-size: 1rem;
   color: #333;
 }
 
 .App > p {
-  font-family: 'S-CoreDream-3Light' !important; 
+  font-size: 14px;
+  font-family: "RIDIBatang" !important;
+}
+
+.parentsName {
+  font-size: 14px;
+  font-family: "RIDIBatang" !important;
+  text-align: right;
+  padding-right: 8%;
 }
 
 span.name {
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 18px;
 }
 
@@ -52,15 +71,27 @@ span.name {
   color: green;
 }
 
-.hallAddress{
-  font-family: 'S-CoreDream-3Light' !important;
+.hallAddress {
+  font-family: "S-CoreDream-3Light" !important;
 }
 
 .prefixIcon {
   width: 25px;
   margin-right: 5px;
+  position: relative;
+  top: 5px;
 }
 
 .prefixIcon2 {
   width: 14px;
+}
+
+.greetingMessage {
+  /* font-size: 14px; */
+  /* font-family: "Cafe24Oneprettynight"; */
+  font-family: "RIDIBatang";
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 8%;
 }
