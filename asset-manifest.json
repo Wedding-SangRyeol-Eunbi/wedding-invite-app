@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "/wedding-invite-app/static/css/main.c7e176af.css",
-    "main.js": "/wedding-invite-app/static/js/main.8dd6772a.js",
+    "main.css": "/wedding-invite-app/static/css/main.3aabf56d.css",
+    "main.js": "/wedding-invite-app/static/js/main.6f5dacec.js",
     "static/js/787.db5ba3e3.chunk.js": "/wedding-invite-app/static/js/787.db5ba3e3.chunk.js",
+    "static/media/img02.jpg": "/wedding-invite-app/static/media/img02.d8698f5788766227d022.jpg",
+    "static/media/img03.jpg": "/wedding-invite-app/static/media/img03.a4c47859bf89b476b286.jpg",
+    "static/media/img01.jpg": "/wedding-invite-app/static/media/img01.3a16987cfa8fb986b1f5.jpg",
+    "static/media/img04.jpg": "/wedding-invite-app/static/media/img04.fdb5a337d2c52bc2577a.jpg",
+    "static/media/img02_sizing.jpg": "/wedding-invite-app/static/media/img02_sizing.97754f86acbca97c3472.jpg",
     "static/media/img05.jpg": "/wedding-invite-app/static/media/img05.dd1ef018c657c8a8a6a5.jpg",
     "static/media/navermap.png": "/wedding-invite-app/static/media/navermap.6c16f824fb7a8ee04662.png",
     "static/media/coupleCharacter.png": "/wedding-invite-app/static/media/coupleCharacter.7ef11ea5fc16bbb47364.png",
@@ -10,12 +15,12 @@
     "static/media/kakaonavi.png": "/wedding-invite-app/static/media/kakaonavi.03010bd7680c2d64bf6d.png",
     "static/media/womanIcon.png": "/wedding-invite-app/static/media/womanIcon.a1b1b2f2b10b3c2c797d.png",
     "index.html": "/wedding-invite-app/index.html",
-    "main.c7e176af.css.map": "/wedding-invite-app/static/css/main.c7e176af.css.map",
-    "main.8dd6772a.js.map": "/wedding-invite-app/static/js/main.8dd6772a.js.map",
+    "main.3aabf56d.css.map": "/wedding-invite-app/static/css/main.3aabf56d.css.map",
+    "main.6f5dacec.js.map": "/wedding-invite-app/static/js/main.6f5dacec.js.map",
     "787.db5ba3e3.chunk.js.map": "/wedding-invite-app/static/js/787.db5ba3e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7e176af.css",
-    "static/js/main.8dd6772a.js"
+    "static/css/main.3aabf56d.css",
+    "static/js/main.6f5dacec.js"
   ]
 }
