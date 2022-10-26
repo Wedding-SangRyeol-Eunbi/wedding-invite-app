@@ -5,7 +5,7 @@ function TopNavigator() {
     return (
         <div>
             <div id="topNavigatorDiv">
-                <a href="#root">상렬 ♥️ 은비</a>
+                <a href="#">상렬 ♥️ 은비</a>
                 {dash}
                 <a href="#kakaoMapDiv">오시는길</a>
                 {dash}
