@@ -1,5 +1,5 @@
 import React from 'react';
-import mainImg from './static/img/img02_sizing.jpg';
+import mainImg from './static/img/main.jpg';
 import Confetti from 'react-confetti';
 import KakaoShare from './components/KakaoShare';
 import WeddingDate from './components/WeddingDate';

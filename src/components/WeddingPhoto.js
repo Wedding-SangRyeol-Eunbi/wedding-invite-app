@@ -1,41 +1,28 @@
 import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import '../static/css/WeddingPhoto.css';
-import img01 from '../static/img/img01.jpg';
-import img02 from '../static/img/img02.jpg';
-import img03 from '../static/img/img03.jpg';
-import img04 from '../static/img/img04.jpg';
-import img05 from '../static/img/img05.jpg';
 
-const imageHeight = 400;
+const images = [];
 
-const images = [
-    {
-        original: img01,
-        thumbnail: img01,
-        originalHeight: imageHeight,
-    },
-    {
-        original: img02,
-        thumbnail: img02,
-        originalHeight: imageHeight,
-    },
-    {
-        original: img03,
-        thumbnail: img03,
-        originalHeight: imageHeight,
-    },
-    {
-        original: img04,
-        thumbnail: img04,
-        originalHeight: imageHeight,
-    },
-    {
-        original: img05,
-        thumbnail: img05,
-        originalHeight: imageHeight,
-    },
-];
+for (let i = 1; i <= 29; i++) {
+    let image = {};
+
+    if (i < 10) {
+        image = {
+            original: require(`../static/img/photo/photo0${i}.jpg`),
+            thumbnail: require(`../static/img/photo/photo0${i}.jpg`),
+            originalHeight: 400,
+        };
+    } else {
+        image = {
+            original: require(`../static/img/photo/photo${i}.jpg`),
+            thumbnail: require(`../static/img/photo/photo${i}.jpg`),
+            originalHeight: 400,
+        };
+    }
+
+    images.push(image);
+}
 
 function WeddingPhoto() {
     return (
